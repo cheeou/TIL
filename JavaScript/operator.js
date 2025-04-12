@@ -141,6 +141,16 @@ switch (cafe_menu) {
     i--;
   }
 
+  let input = '';
+  while (input !== 'yes') {
+    input = prompt('Do you want to continue ? then put \'yes\'');
+  }
+
+  let option;
+  do {
+    option = prompt('choose the option : 1. Start 2. Quit');
+  } while (option !== '2');
+  
   // do while loop, body code is executed first,
   // then check the condition.
   do {
